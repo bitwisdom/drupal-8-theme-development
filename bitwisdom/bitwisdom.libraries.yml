@@ -3,3 +3,5 @@ global-styling:
   css:
     base:
       css/base.css: {}
+    layout:
+      css/layout.css: {}
