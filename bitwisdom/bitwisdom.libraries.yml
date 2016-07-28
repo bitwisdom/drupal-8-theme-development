@@ -13,3 +13,14 @@ global-styling:
     theme:
       css/style.css: {}
       css/print.css: { media: print }
+      
+font-awesome:
+  remote: https://fortawesome.github.io/Font-Awesome/
+  version: 4.6.3
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/mit-license.html
+    gpl-compatible: true
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css: { type: external, minified: true }

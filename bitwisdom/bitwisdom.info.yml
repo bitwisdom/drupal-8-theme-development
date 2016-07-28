@@ -6,3 +6,4 @@ base theme: classy
 
 libraries:
   - bitwisdom/global-styling
+  - bitwisdom/font-awesome
