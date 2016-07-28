@@ -1,0 +1,63 @@
+html {
+  background-color: #006666;
+}
+.layout-container {
+  background: #ffffff;
+}
+.region-header {
+  background-color: #ffcc00;
+  padding: 15px 25px;
+  font-weight: bold;
+}
+.region-header a {
+  text-decoration: none;
+}
+.site-logo,
+.site-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.region-primary-menu {
+  background-color: #ffcc00;
+  padding: 0 25px;
+  font-weight: bold;  
+  height: 32px;
+  margin-bottom: -32px;
+  z-index: 10;
+  position: relative;
+}
+.region-primary-menu a {
+  text-decoration: none;
+}
+.region-primary-menu ul.menu {
+  margin: 0;
+  float: left
+}
+.region-primary-menu ul.menu li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.region-secondary-menu {
+  background: #ffcc00;
+  padding:  0 25px;
+}
+.region-secondary-menu a {
+  text-decoration: none;
+}
+.region-secondary-menu ul.menu {
+  margin: 0;
+  text-align: right;
+}
+.region-secondary-menu ul.menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.region-content {
+  padding: 0 25px 25px 25px;
+}
+.region-sidebar-first {
+  padding: 0 25px 25px 25px;
+}
+.breadcrumb {
+  padding: 25px;
+}

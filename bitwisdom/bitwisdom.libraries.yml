@@ -10,3 +10,5 @@ global-styling:
       css/components/table.css: {}
     state:
       css/state.css: {}
+    theme:
+      css/style.css: {}
