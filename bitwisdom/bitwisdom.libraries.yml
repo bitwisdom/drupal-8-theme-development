@@ -5,3 +5,5 @@ global-styling:
       css/base.css: {}
     layout:
       css/layout.css: {}
+    component:
+      css/components/node.css: {}

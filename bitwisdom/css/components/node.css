@@ -1,0 +1,35 @@
+.node__content {
+  margin-top: 10px;
+}
+.node--view-mode-teaser {
+  border-bottom: 1px solid #d3d7d9;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+.node--view-mode-teaser h2 {
+  margin-top: 0;
+  padding-top: 0.5em;
+}
+.node__meta {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.857em;
+  color: #68696b;
+}
+.node__meta .profile {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.node__meta .profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.node__meta .node__submitted {
+  display: inline-block;
+  vertical-align: middle;
+}
+.node__links {
+  text-align: right;
+  font-size: 0.93em;
+}
