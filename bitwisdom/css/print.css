@@ -1,0 +1,46 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  padding-top: 0 !important;
+  text-color: #000;
+}
+.layout-content {
+  width: 100%;
+  float: none;
+}
+.region-header {
+  padding: 0;
+}
+.region-primary-menu {
+  display: none;
+}
+.region-secondary-menu {
+  display: none;
+}
+.region-content {
+  padding: 0;
+}
+.region-sidebar-first,
+.region-sidebar-second {
+  display: none; 
+}
+.breadcrumb {
+  padding: 0;
+}
+.block-local-tasks-block {
+  display: none;
+}
+tr {
+  border-bottom: 1px solid #000;
+}
+table tr th,
+table tr th a,
+table tr th a:hover,
+table tr th a:focus {
+  color: #000;
+}
+tr td,
+tr th {
+  border: 1px solid #000;
+}
