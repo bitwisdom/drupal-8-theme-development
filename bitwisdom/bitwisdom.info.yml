@@ -7,3 +7,15 @@ base theme: classy
 libraries:
   - bitwisdom/global-styling
   - bitwisdom/font-awesome
+  
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Second'
+  footer: 'Footer'
