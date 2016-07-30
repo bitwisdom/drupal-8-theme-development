@@ -68,3 +68,8 @@ html {
 .article-teaser-wrapper {
   border: 3px solid #009900;
 }
+.layout-share-links .block {
+  padding: 10px;
+  background: #ffffff;
+  font-size: 12px;
+}

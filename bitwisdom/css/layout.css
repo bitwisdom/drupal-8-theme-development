@@ -15,3 +15,8 @@ main {
   width: 25%;
   float: left;
 }
+.layout-share-links {
+  position: fixed;
+  margin-left: -100px;
+  width: 75px;
+}

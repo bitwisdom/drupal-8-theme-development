@@ -15,6 +15,7 @@ regions:
   breadcrumb: 'Breadcrumb'
   highlighted: 'Highlighted'
   help: 'Help'
+  share_links: 'Share Links'
   content: 'Content'
   sidebar_first: 'Sidebar'
   footer: 'Footer'
