@@ -51,8 +51,6 @@
   {{ page.primary_menu }}
   {{ page.secondary_menu }}
 
-  {{ page.breadcrumb }}
-
   {{ page.highlighted }}
 
   {{ page.help }}
@@ -66,6 +64,7 @@
 
     <div class="layout-content">
       {{ page.content }}
+      {{ page.breadcrumb }}
     </div>{# /.layout-content #}
 
     {% if page.sidebar_first %}
