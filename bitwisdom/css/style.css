@@ -17,6 +17,9 @@ html {
   display: inline-block;
   vertical-align: middle;
 }
+.site-logo img {
+  width: 95px;
+}
 .region-primary-menu {
   background-color: #ffcc00;
   padding: 0 25px;
