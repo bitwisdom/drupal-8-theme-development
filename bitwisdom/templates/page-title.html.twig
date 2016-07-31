@@ -20,3 +20,4 @@
 {% endif %}
 {{ title_suffix }}
 {{ 444442.35 | round(1) | number_format(1) }}
+{{ user.account.roles | sort | reverse | safe_join(', ') }}
