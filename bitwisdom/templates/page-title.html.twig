@@ -12,9 +12,10 @@
  *   displayed after the main title tag that appears in the template.
  */
 #}
-{{ dump() }}
+{{ kint() }}
 {{ title_prefix }}
 {% if title %}
   <h1{{ title_attributes.addClass('page-title') }}>{{ title }}</h1>
 {% endif %}
 {{ title_suffix }}
+{{ user.account.name }}
