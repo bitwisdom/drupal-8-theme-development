@@ -109,6 +109,15 @@
     <h3>I don't know what this is.</h3>
   {% endif %}
   
+  {% for class in classes if class != '' %}
+    <div>{{ loop.index }}. {{ class }}</div>
+  {% else %}
+    <div>No classes.</div>
+  {% endfor %}
+  
+  {% for i in 0..10 %}
+    <div>{{ i }}</div>
+  {% endfor %}
 
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
