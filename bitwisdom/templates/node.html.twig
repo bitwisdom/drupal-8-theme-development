@@ -137,7 +137,15 @@
   {% for item in data %}
     <div class="{{ cycle(['red', 'blue', 'green'], loop.index0) }}">{{ item }}</div>
   {% endfor %}
-
+  
+  <div>
+    <a href="{{ url('<front>') }}" >Back to Home Page</a>
+  </div>
+  
+  <div>
+    <a href="{{ path('entity.user.canonical', {'user': node.uid.target_id}) }}">Author's Page</a>
+  </div>
+  
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
   </div>
