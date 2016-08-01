@@ -129,6 +129,14 @@
   {% plural number_of_items %}
     There are {{ number_of_items }} items.
   {% endtrans %}
+  
+  {{ date('-2 days').timestamp | format_date('custom', 'Y-m-d') }}
+  
+  {% set data = ['thing1', 'thing2', 'thing3', 'thing4'] %}
+  
+  {% for item in data %}
+    <div class="{{ cycle(['red', 'blue', 'green'], loop.index0) }}">{{ item }}</div>
+  {% endfor %}
 
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
