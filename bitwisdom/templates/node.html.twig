@@ -80,7 +80,6 @@
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
   ]
 %}
-{{ kint(classes) }}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
 
@@ -101,6 +100,15 @@
       </div>
     </footer>
   {% endif %}
+  
+  {% if (node.bundle == 'article' and view_mode == 'full') %}
+    <h3>This is an article</h3>
+  {% elseif (node.bundle == 'page' and view_mode == 'full') %}
+    <h3>This is a page.</h3>
+  {% else %}
+    <h3>I don't know what this is.</h3>
+  {% endif %}
+  
 
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
