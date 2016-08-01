@@ -12,12 +12,26 @@
  *   displayed after the main title tag that appears in the template.
  */
 #}
+{%  
+  set id = 'pagetitle'
+%}
+{% set test = 'testing' %}
+{%
+  set title_classes = [
+    'page-title', 
+    'title', 
+    'heading'
+  ]
+%}
+{% set title = ('Account Name: ' ~ user.account.name) | upper %}
 {{ kint() }}
 {{ title_prefix }}
 {% if title %}
   {# Testing: This is a comment. #}
-  <h1{{ title_attributes.addClass(['page-title', 'testing']) }}>{{ title }}</h1>
+  <h1{{ title_attributes.addClass(title_classes).setAttribute('id', id) }}>{{ title }}</h1>
 {% endif %}
 {{ title_suffix }}
 {{ 444442.35 | round(1) | number_format(1) }}
 {{ user.account.roles | sort | reverse | safe_join(', ') }}
+<div class="{{ user.account.timezone | clean_class }}" id="{{ user.account.timezone | clean_id }}">Some Text</div>
+<a href="http://example.com" title="{{ 'User Website' | t }}">{{ user.account.name }}</a>
