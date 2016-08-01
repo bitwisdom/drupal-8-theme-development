@@ -118,6 +118,17 @@
   {% for i in 0..10 %}
     <div>{{ i }}</div>
   {% endfor %}
+  
+  {% 
+    set items = ['item1', 'item2']
+  %}
+  {% set number_of_items = items | length %}
+  
+  {% trans %}
+    There is 1 item.
+  {% plural number_of_items %}
+    There are {{ number_of_items }} items.
+  {% endtrans %}
 
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
