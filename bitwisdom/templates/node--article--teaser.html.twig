@@ -91,15 +91,7 @@
   {% endif %}
   {{ title_suffix }}
 
-  {% if display_submitted %}
-    <footer class="node__meta">
-      {{ author_picture }}
-      <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
-    </footer>
-  {% endif %}
+  {% include directory ~ '/includes/node-display-submitted.html.twig' %}
 
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
