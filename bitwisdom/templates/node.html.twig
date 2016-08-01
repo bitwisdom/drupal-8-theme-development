@@ -81,6 +81,11 @@
   ]
 %}
 {{ attach_library('classy/node') }}
+
+{% if (node.bundle == 'article' and view_mode == 'full') %}
+  {{ attach_library('bitwisdom/article-style') }}
+{% endif %}
+
 <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}

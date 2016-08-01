@@ -24,3 +24,9 @@ font-awesome:
   css:
     theme:
       https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css: { type: external, minified: true }
+      
+article-style:
+  version: 1.x
+  css:
+    theme:
+      css/article.css: {}
