@@ -38,3 +38,9 @@ global-scripts:
   dependencies:
     - core/jquery
     - core/drupal
+
+node:
+  version: 1.x
+  css:
+    theme:
+      css/node-additions.css: {}

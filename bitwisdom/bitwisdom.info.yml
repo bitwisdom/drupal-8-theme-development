@@ -27,3 +27,7 @@ libraries-override:
       component:
         css/components/tabs.css: false
         css/components/breadcrumb.css: css/breadcrumb-override.css
+        
+libraries-extend:
+  classy/node:
+    - bitwisdom/node
