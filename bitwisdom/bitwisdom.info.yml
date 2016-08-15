@@ -7,6 +7,7 @@ base theme: classy
 libraries:
   - bitwisdom/global-styling
   - bitwisdom/font-awesome
+  - bitwisdom/global-scripts
   
 regions:
   header: 'Header'

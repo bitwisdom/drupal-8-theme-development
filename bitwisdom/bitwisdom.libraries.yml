@@ -30,3 +30,8 @@ article-style:
   css:
     theme:
       css/article.css: {}
+
+global-scripts:
+  version: 1.x
+  js:
+    js/global.js: {}
