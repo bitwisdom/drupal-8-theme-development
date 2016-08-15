@@ -2,7 +2,7 @@
     <footer class="node__meta">
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}Authored by {{ author_name }} on {{ date }}{% endtrans %}
+        {% trans %}Authored by {{ author_name }} on {{ date }} (author of {{ user_node_count }} nodes){% endtrans %}
         {{ metadata }}
       </div>
     </footer>

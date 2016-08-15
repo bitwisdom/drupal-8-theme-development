@@ -11,6 +11,4 @@ function bitwisdom_preprocess_node(&$variables) {
       ->condition('uid', $variables['node']->getOwnerId())
       ->count()
       ->execute();
-  
-  kint($variables);
 }
