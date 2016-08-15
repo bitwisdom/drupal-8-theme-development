@@ -35,3 +35,6 @@ global-scripts:
   version: 1.x
   js:
     js/global.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
