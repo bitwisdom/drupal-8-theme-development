@@ -20,3 +20,9 @@ regions:
   content: 'Content'
   sidebar_first: 'Sidebar'
   footer: 'Footer'
+  
+libraries-override:
+  classy/base:
+    css:
+      component:
+        css/components/tabs.css: false
