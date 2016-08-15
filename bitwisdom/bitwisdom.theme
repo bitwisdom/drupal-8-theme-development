@@ -1,0 +1,16 @@
+<?php
+
+function bitwisdom_preprocess_page_title(&$variables) {
+  
+}
+
+function bitwisdom_preprocess_node(&$variables) {
+  $variables['user_node_count'] = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->getQuery()
+      ->condition('uid', $variables['node']->getOwnerId())
+      ->count()
+      ->execute();
+  
+  kint($variables);
+}

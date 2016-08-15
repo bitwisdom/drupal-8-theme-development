@@ -31,3 +31,4 @@ libraries-override:
 libraries-extend:
   classy/node:
     - bitwisdom/node
+  
