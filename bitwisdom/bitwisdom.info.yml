@@ -26,3 +26,4 @@ libraries-override:
     css:
       component:
         css/components/tabs.css: false
+        css/components/breadcrumb.css: css/breadcrumb-override.css
