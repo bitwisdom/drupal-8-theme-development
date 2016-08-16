@@ -1,0 +1,19 @@
+bitwisdom.mobile:
+  label: Mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+bitwisdom.narrow:
+  label: Narrow
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 767px)'
+  weight: 1
+  multipliers:
+    - 1x
+bitwisdom.wide:
+  label: Wide
+  mediaQuery: 'all and (min-width: 768px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
