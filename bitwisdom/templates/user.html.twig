@@ -17,7 +17,9 @@
  */
 #}
 <article{{ attributes.addClass('profile') }}>
-  {{ user_contact_button }}
+  {% if elements['#view_mode'] == 'full' %}
+    {{ user_contact_button }}
+  {% endif %}
   {% if content %}
     {{- content -}}
   {% endif %}
