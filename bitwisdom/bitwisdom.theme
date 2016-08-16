@@ -1,5 +1,13 @@
 <?php
 
+function bitwisdom_theme($existing, $type, $theme, $path) {
+  return [
+    'bitwisdom_user_contact_button' => [
+      'variables' => ['account' => NULL],
+    ]
+  ];
+}
+
 function bitwisdom_preprocess_page_title(&$variables) {
   
 }
@@ -11,4 +19,11 @@ function bitwisdom_preprocess_node(&$variables) {
       ->condition('uid', $variables['node']->getOwnerId())
       ->count()
       ->execute();
+  
+  $button = [
+    '#theme' => 'bitwisdom_user_contact_button',
+    '#account' => $variables['node']->getOwner()
+  ];
+  
+  $variables['user_contact_button'] = render($button);
 }

@@ -3,6 +3,7 @@
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
         {% trans %}Authored by {{ author_name }} on {{ date }} (author of {{ user_node_count }} nodes){% endtrans %}
+        {{ user_contact_button }}
         {{ metadata }}
       </div>
     </footer>
