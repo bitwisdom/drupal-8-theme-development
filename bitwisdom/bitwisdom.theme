@@ -8,6 +8,10 @@ function bitwisdom_theme($existing, $type, $theme, $path) {
   ];
 }
 
+function bitwisdom_preprocess_bitwisdom_user_contact_button(&$variables) {
+  $variables['#attached']['library'][] = 'bitwisdom/user-contact-button';
+}
+
 function bitwisdom_preprocess_page_title(&$variables) {
   
 }

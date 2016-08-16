@@ -44,3 +44,9 @@ node:
   css:
     theme:
       css/node-additions.css: {}
+      
+user-contact-button:
+  version: 1.x
+  css:
+    component:
+      css/components/user-contact-button.css: {}
