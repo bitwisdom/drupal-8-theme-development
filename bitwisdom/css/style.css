@@ -24,22 +24,17 @@ html {
 .region-primary-menu {
   background-color: #ffcc00;
   padding: 0 25px;
-  font-weight: bold;  
-  height: 32px;
-  margin-bottom: -32px;
-  z-index: 10;
-  position: relative;
+  font-weight: bold;
 }
 .region-primary-menu a {
   text-decoration: none;
 }
 .region-primary-menu ul.menu {
   margin: 0;
-  float: left
 }
 .region-primary-menu ul.menu li {
-  display: inline-block;
-  margin-right: 15px;
+  display: block;
+  margin-right: 0;
 }
 .region-secondary-menu {
   background: #ffcc00;
@@ -50,11 +45,10 @@ html {
 }
 .region-secondary-menu ul.menu {
   margin: 0;
-  text-align: right;
 }
 .region-secondary-menu ul.menu li {
-  display: inline-block;
-  margin-left: 15px;
+  display: block;
+  margin-left: 0;
 }
 .region-content {
   padding: 0 25px 25px 25px;
@@ -72,4 +66,24 @@ html {
   padding: 10px;
   background: #ffffff;
   font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .region-primary-menu {
+    float: left;
+    height: 32px;
+    margin-bottom: -32px;
+    z-index: 10;
+    position: relative;
+  }
+  .region-primary-menu ul.menu li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .region-secondary-menu ul.menu {
+    text-align: right;
+  }
+  .region-secondary-menu ul.menu li {
+    display: inline-block;
+    margin-left: 15px;
+  }
 }
