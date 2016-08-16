@@ -27,3 +27,12 @@ function bitwisdom_preprocess_node(&$variables) {
   
   $variables['user_contact_button'] = render($button);
 }
+
+function bitwisdom_preprocess_user(&$variables) {
+  $button = [
+    '#theme' => 'bitwisdom_user_contact_button',
+    '#account' => $variables['user'],
+  ];
+  
+  $variables['user_contact_button'] = render($button);
+}
