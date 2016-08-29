@@ -32,13 +32,13 @@
 				margin-right: 0.75em;
 			}
 
-		.box
+		.node
 		{
 			padding: 2.75em 1.75em 2.75em 1.75em;
 			margin-bottom: 30px !important;
 		}
 		
-			.box .image-full
+			.node .image-full
 			{
 				left: 1.75em;
 				top: 1.75em;
@@ -58,7 +58,7 @@
 			}
 
 			
-			.is-post .byline
+			.node--view-mode-full .byline
 			{
 				margin-top: 1.25em;
 			}

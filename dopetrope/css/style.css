@@ -147,13 +147,13 @@
 
 	/* Box */
 
-		.box
+		.node
 		{
 			background: #ffffff;
 			border-bottom: solid 1px #ccc;
 		}
 		
-			.box .image-full
+			.node .image-full
 			{
 				position: relative;
 				width: auto;
@@ -315,7 +315,7 @@
 
 	/* Is-* */
 	
-		.is-post
+		.node--view-mode-full
 		{
 		}
 	

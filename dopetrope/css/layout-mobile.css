@@ -23,12 +23,12 @@
 
 	/* Box */
 
-		.box
+		.node
 		{
 			padding: 25px 15px 20px 15px;
 		}
 		
-			.box .image-full
+			.node .image-full
 			{
 				left: 15px;
 				top: 15px;
