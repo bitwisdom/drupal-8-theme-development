@@ -29,6 +29,12 @@
 		line-height: 1.75em;
 		letter-spacing: 0;
 	}
+  
+  img {
+      max-width: 100%;
+      height: auto;
+    }
+
 
 	strong, b
 	{
