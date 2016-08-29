@@ -108,7 +108,38 @@
       </div>
     </div>
 
-
+<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+				<div class="container">
+         
+          {% if page.footer_first and page.footer_second %}
+              <div id="footer" class="row">
+                <div class="col-md-8">
+                  {{ page.footer_first }}
+                </div>
+                <div class="col-md-4">
+                  {{ page.footer_second }}
+                </div>
+              </div>
+            {% elseif page.footer_first %}
+              <div id="footer" class="row">
+                {{ page.footer_first }}
+              </div>
+            {% elseif page.footer_second %}
+              <div id="footer" class="row">
+                {{ page.footer_second }}
+              </div>
+            {% endif %} 
+          
+					
+						{% if page.footer_bottom %}
+              <div class="row">
+                {{ page.footer_bottom }}
+              </div>
+            {% endif %}
+            
+        </div>
+			</div>
 
 
 
