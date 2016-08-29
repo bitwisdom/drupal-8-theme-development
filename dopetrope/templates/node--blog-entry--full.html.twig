@@ -96,7 +96,7 @@
   {{ title_suffix }}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content | without('field_image', 'comment')}}
+    {{ content | without('field_image', 'comment', 'links')}}
   </div>
 
 </article>
