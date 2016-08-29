@@ -75,7 +75,38 @@
 </div>
 
 
-
+    <!-- Main Wrapper -->
+    <div id="main-wrapper">
+      <div class="container">
+        
+        
+        {% if page.content and page.sidebar %}
+          <div class="row">
+            <div class="main col-md-8">
+              {{ page.content }}
+            </div>
+            <div class="sidebar col-md-4">
+              {{ page.sidebar }}
+            </div>
+          </div>
+        {% elseif page.content %}
+          <div class="row">
+            <div class="main col-xs-12">
+              {{ page.content }}
+            </div>
+          </div>
+        {% elseif page.sidebar %}
+          <div class="row">
+            <div class="main col-xs-12">
+              {{ page.sidebar }}
+            </div>
+          </div>
+        {% endif %}
+        
+        
+        
+      </div>
+    </div>
 
 
 
