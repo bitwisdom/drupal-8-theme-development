@@ -8,3 +8,9 @@ fonts:
   css:
     theme:
       http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic: { type: external, minified: true }
+ 
+bootstrap-grid:
+  version: 3.3.7
+  css:
+    layout:
+      css/grid12.css: {}
