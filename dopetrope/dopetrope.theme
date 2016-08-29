@@ -8,7 +8,7 @@ function dopetrope_preprocess_block(&$variables) {
     if ($route_name == 'entity.node.canonical') {
       $node = \Drupal::service('current_route_match')->getParameter('node');
       
-      if ($node->getType() == 'portfolio_item') {
+      if (in_array($node->getType(), ['portfolio_item', 'blog_entry'])) {
         $variables['content'] = NULL;
       }
     }
