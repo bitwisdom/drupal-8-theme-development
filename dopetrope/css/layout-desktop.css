@@ -32,7 +32,8 @@
 				margin-right: 0.75em;
 			}
 
-		.node
+		.node,
+    .comment
 		{
 			padding: 2.75em 1.75em 2.75em 1.75em;
 			margin-bottom: 30px !important;

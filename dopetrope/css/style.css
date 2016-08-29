@@ -147,7 +147,8 @@
 
 	/* Box */
 
-		.node
+		.node,
+    .comment 
 		{
 			background: #ffffff;
 			border-bottom: solid 1px #ccc;

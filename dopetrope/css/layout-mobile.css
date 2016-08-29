@@ -23,7 +23,8 @@
 
 	/* Box */
 
-		.node
+		.node,
+    .comment
 		{
 			padding: 25px 15px 20px 15px;
 		}
