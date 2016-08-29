@@ -102,5 +102,16 @@
   </div>
   
   </div>
+  
+  <footer class="actions">
+    <a href="{{ url }}" class="button button-icon button-icon-1">{% trans %}Continue Reading{% endtrans %}</a>
+    <a href="{{ url }}#comments" class="button button-alt button-icon button-icon-2">
+      {% trans %}
+        1 comment
+      {% plural node.comment.comment_count %}
+        {{ node.comment.comment_count }} comments
+      {% endtrans %}
+    </a>
+  </footer>
 
 </article>
