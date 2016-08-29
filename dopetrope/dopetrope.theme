@@ -2,4 +2,15 @@
 
 function dopetrope_preprocess_block(&$variables) {
   $variables['is_front_page'] = \Drupal::service('path.matcher')->isFrontPage();
+  
+  if ($variables['plugin_id'] == 'page_title_block') {
+    $route_name = \Drupal::service('current_route_match')->getRouteName();
+    if ($route_name == 'entity.node.canonical') {
+      $node = \Drupal::service('current_route_match')->getParameter('node');
+      
+      if ($node->getType() == 'portfolio_item') {
+        $variables['content'] = NULL;
+      }
+    }
+  }
 }
