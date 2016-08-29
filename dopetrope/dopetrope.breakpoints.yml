@@ -1,0 +1,32 @@
+dopetrope.mobile:
+  label: Mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 1.5x
+    - 2x
+dopetrope.small:
+  label: Small
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 991px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 1.5x
+    - 2x
+dopetrope.medium:
+  label: Medium
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 1.5x
+    - 2x
+dopetrope.large:
+  label: Large
+  mediaQuery: 'all and (min-width: 1200px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 1.5x
+    - 2x
