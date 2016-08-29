@@ -169,10 +169,10 @@
 		
 
 
-#nav {
+#header nav {
   margin-bottom: 2em;
 }
-#nav li
+#header nav li
 		{
 			display: inline-block;
 			margin: 0 0.35em 0 0.35em;
