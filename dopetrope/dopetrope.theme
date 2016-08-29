@@ -1,0 +1,5 @@
+<?php
+
+function dopetrope_preprocess_block(&$variables) {
+  $variables['is_front_page'] = \Drupal::service('path.matcher')->isFrontPage();
+}
