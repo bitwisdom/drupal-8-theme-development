@@ -1,0 +1,75 @@
+/*
+	Dopetrope 1.0 by HTML5 Up!
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+@media (max-width: 767px) {
+
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 1.25em;
+	}
+
+
+			ul.contact li
+			{
+				padding: 0.8em 0 0.8em 7em;
+			}
+
+				ul.contact li h3
+				{
+					top: 0.8em;
+				}
+
+		
+			ul.links li
+			{
+				border-top: solid 1px rgba(255,255,255,0.05);
+			}
+			
+			ul.links li:first-child
+			{
+				padding-top: 0;
+				margin-top: 0;
+			}
+
+
+	
+		#intro section
+		{
+			border-top:	solid 1px #dfdfdf;
+		}
+
+		#intro section.first
+		{
+			border-top: 0;
+		}
+		
+	
+		#header h1,
+    #header div.name
+		{
+			color: #252122;
+			font-weight: 900;
+			font-size: 1.75em;
+			letter-spacing: -0.035em;
+		}
+		
+		#banner h2
+		{
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0 0 0.25em 0;
+		}
+		
+		#banner .byline
+		{
+			font-size: 1.2em;
+		}
+
+}

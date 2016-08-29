@@ -18,3 +18,4 @@ regions:
 libraries:
   - dopetrope/fonts
   - dopetrope/bootstrap-grid
+  - dopetrope/global-styling

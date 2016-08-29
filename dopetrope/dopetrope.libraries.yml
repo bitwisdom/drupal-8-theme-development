@@ -14,3 +14,17 @@ bootstrap-grid:
   css:
     layout:
       css/grid12.css: {}
+      
+global-styling:
+  version: 1.x
+  css:
+    layout:
+      css/layout-mobile.css: {}
+      css/layout-desktop.css: {}
+    theme:
+      css/style.css: {}
+      css/style-mobile.css: {}
+      css/style-desktop.css: {}
+  dependencies:
+    - dopetrope/fonts
+    - dopetrope/bootstrap-grid

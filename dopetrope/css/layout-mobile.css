@@ -1,0 +1,199 @@
+/*
+	Dopetrope 1.0 by HTML5 Up!
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+@media (max-width: 767px) {
+	
+	header
+	{
+		margin: 0 0 1em 0;
+	}
+
+	section,
+	article
+	{
+		clear: both;
+		margin: 2.5em 0 2.5em 0;
+	}
+
+	/* Box */
+
+		.box
+		{
+			padding: 25px 15px 20px 15px;
+		}
+		
+			.box .image-full
+			{
+				left: 15px;
+				top: 15px;
+				margin: -40px 0 40px -30px;
+			}
+
+	/* Button */
+
+		.button
+		{
+			position: relative;
+			padding: 0.65em 0 0.65em 0 !important;
+			width: 100%;
+			text-align: center;
+			font-size: 1.25em;
+			margin: 0.25em 0 0.25em 0;
+		}
+
+			.button-icon
+			{
+			}
+
+				.button-icon:before
+				{
+					position: absolute;
+					left: 0.5em;
+				}
+
+
+			ul.contact li
+			{
+				padding: 0.8em 0 0.8em 7em;
+			}
+
+				ul.contact li h3
+				{
+					top: 0.8em;
+				}
+
+			ul.divided li
+			{
+				padding: 0.5em 0 0.5em 0;
+			}
+
+		
+			ul.links li
+			{
+				display: block;
+				padding: 0.25em 0 0 0;
+				margin: 0.25em 0 0 0;
+			}
+			
+			ul.links li:first-child
+			{
+				padding-top: 0;
+				margin-top: 0;
+			}
+
+			ul.social li
+			{
+				margin: 0 0.75em 0.75em 0;
+			}
+
+		.pennant
+		{
+			width: 7em;
+			padding: 1em 0 0.25em 0;
+			margin: 0 0 2.5em 0;
+		}
+
+			.pennant:after
+			{
+				bottom: -1.48em;
+			}
+
+
+	#main-wrapper
+	{
+		padding: 0 10px 30px 10px;
+		overflow: hidden;
+	}
+
+	#header-wrapper
+	{
+		padding: 2em 0 0 0;
+		overflow: hidden;
+	}
+
+		#header-wrapper:before
+		{
+			height: 8em;
+		}
+	
+		#header-wrapper:after
+		{
+			height: 12em;
+			top: -2.5em;
+		}
+
+	#footer-wrapper
+	{
+		padding: 0 25px 0 25px;
+		overflow: hidden;
+		-webkit-transform: translateZ(0);
+	}
+
+		#footer-wrapper:before
+		{
+			height: 3em;
+		}
+	
+	#intro
+	{
+		padding: 0 25px 0 25px;
+	}
+	
+		#intro section
+		{
+			position: relative;
+			padding: 2.5em 0 0 0;
+			margin: 0;
+		}
+
+		#intro section.first
+		{
+			padding-top: 0;
+		}
+		
+		#intro .actions
+		{
+			margin-top: 2em;
+		    margin-bottom: 2em;
+		}
+
+	#header
+	{
+		text-align: center;
+		margin: 0;
+	}
+	
+		
+		#nav li
+		{
+			display: block;
+			margin: 1.5em 0;
+		}
+
+	#banner
+	{
+		margin: 0 0 2.5em 0;
+	}
+	
+		#banner header
+		{
+			padding: 1.5em 1em 1.5em 1em;
+		}
+		
+
+	#copyright
+	{
+		margin: 3em 0 0 0;
+	}
+	
+		#copyright .links
+		{
+			padding: 0.75em 1.25em 0.75em 1.25em;
+		}
+}
