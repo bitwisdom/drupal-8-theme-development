@@ -35,7 +35,7 @@
 %}
 <div{{ attributes.addClass(classes) }}>
   <section class="item">
-    <span class="pennant"><span class="icon64 icon64-1"></span></span>
+    <span class="pennant {{ color }}"><span class="icon64 {{ icon }}"></span></span>
   {{ title_prefix }}
   {% if label %}
   <header>
@@ -44,7 +44,7 @@
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    {{ content }}
+    {{ content | without('field_color', 'field_icon') }}
   {% endblock %}
     </section>
 </div>

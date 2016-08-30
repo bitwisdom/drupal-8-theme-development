@@ -18,6 +18,19 @@ function dopetrope_preprocess_block(&$variables) {
       $variables['content']['field_link']['#bundle'] == 'banner') {
     $variables['url'] = $variables['content']['field_link']['#items'][0]->getUrl()->toString();
   }
+  
+  // Get color for the pennant in Intro blocks.
+  if (!empty($variables['content']['field_color']['#items'][0]) && 
+    $variables['content']['field_color']['#bundle'] == 'intro_block') {
+    $variables['color'] = $variables['content']['field_color']['#items'][0]->getString();
+  }
+  
+  // Get icon for the pennant in Intro blocks.
+  if (!empty($variables['content']['field_icon']['#items'][0]) && 
+    $variables['content']['field_icon']['#bundle'] == 'intro_block') {
+    $variables['icon'] = $variables['content']['field_icon']['#items'][0]->getString();
+  }
+  
 }
 
 /**
