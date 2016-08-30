@@ -252,4 +252,17 @@
 		{
 			padding: 0.85em 2.25em 0.85em 2.25em;
 		}
+    
+    #header-bottom {
+      padding-bottom: 6em;
+    }
+    #header-bottom .actions
+		{
+		    margin: 0;
+			padding: 5em 0 0 0;
+		}
+    
+    #header-bottom .actions .button {
+      margin-right: 0.75em;
+    }
 }

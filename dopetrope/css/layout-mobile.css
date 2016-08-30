@@ -199,4 +199,14 @@
 		{
 			padding: 0.75em 1.25em 0.75em 1.25em;
 		}
+    
+    #header-bottom .actions
+		{
+			margin-top: 2em;
+		  margin-bottom: 2em;
+		}
+    #header-bottom {
+      padding: 0 25px 0 25px;
+      padding-bottom: 2em;
+    }
 }
