@@ -31,7 +31,9 @@ function dopetrope_preprocess_field(&$variables) {
   if ($variables['entity_type'] == 'block_content' && $variables['field_name'] == 'field_link') {
     foreach ($variables['items'] as $i => $item) {
       $variables['items'][$i]['content']['#attributes']['class'][] = 'button';
-      $variables['items'][$i]['content']['#attributes']['class'][] = 'button-alt';
+      if ($variables['element']['#bundle'] == 'box_block') {
+        $variables['items'][$i]['content']['#attributes']['class'][] = 'button-alt';
+      }
     }
   }
 }
