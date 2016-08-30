@@ -25,3 +25,13 @@ function dopetrope_theme_suggestions_block_alter(array &$suggestions, array $var
     array_splice($suggestions, 1, 0, 'block__bundle__' . $variables['elements']['content']['#block_content']->bundle());
   }
 }
+
+
+function dopetrope_preprocess_field(&$variables) {
+  if ($variables['entity_type'] == 'block_content' && $variables['field_name'] == 'field_link') {
+    foreach ($variables['items'] as $i => $item) {
+      $variables['items'][$i]['content']['#attributes']['class'][] = 'button';
+      $variables['items'][$i]['content']['#attributes']['class'][] = 'button-alt';
+    }
+  }
+}
