@@ -33,13 +33,15 @@
 			}
 
 		.node,
-    .comment
+    .comment,
+    .block.box
 		{
 			padding: 2.75em 1.75em 2.75em 1.75em;
 			margin-bottom: 30px !important;
 		}
 		
-			.node .image-full
+			.node .image-full,
+      .block.box .image-full
 			{
 				left: 1.75em;
 				top: 1.75em;

@@ -148,13 +148,15 @@
 	/* Box */
 
 		.node,
-    .comment 
+    .comment,
+    .block.box 
 		{
 			background: #ffffff;
 			border-bottom: solid 1px #ccc;
 		}
 		
-			.node .image-full
+			.node .image-full,
+      .block.box .image-full
 			{
 				position: relative;
 				width: auto;

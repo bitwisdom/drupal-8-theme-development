@@ -24,12 +24,14 @@
 	/* Box */
 
 		.node,
-    .comment
+    .comment,
+    .block.box
 		{
 			padding: 25px 15px 20px 15px;
 		}
 		
-			.node .image-full
+			.node .image-full,
+      .block.box .image-full
 			{
 				left: 15px;
 				top: 15px;
