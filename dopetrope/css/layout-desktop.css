@@ -241,12 +241,12 @@
 		}
 		
 		
-	#copyright
+	#block-copyrightblock
 	{
 		margin: 3em 0 2em 0;
 	}
 	
-		#copyright .links
+		#block-copyrightblock .links
 		{
 			padding: 0.85em 2.25em 0.85em 2.25em;
 		}

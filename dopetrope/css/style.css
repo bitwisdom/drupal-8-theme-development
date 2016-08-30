@@ -765,12 +765,12 @@
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-	#copyright
+	#block-copyrightblock
 	{	
 		text-align: center;
 	}
 	
-		#copyright .links
+		#block-copyrightblock .links
 		{
 			display: inline-block;
 			background: #2C2929;
