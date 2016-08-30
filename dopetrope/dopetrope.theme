@@ -13,6 +13,11 @@ function dopetrope_preprocess_block(&$variables) {
       }
     }
   }
+  
+  if (!empty($variables['content']['field_link']['#items'][0]) && 
+      $variables['content']['field_link']['#bundle'] == 'banner') {
+    $variables['url'] = $variables['content']['field_link']['#items'][0]->getUrl()->toString();
+  }
 }
 
 /**
