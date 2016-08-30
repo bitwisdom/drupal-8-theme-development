@@ -277,6 +277,10 @@
         height: 200px;
       }
       
+      .node.node--type-blog-entry .item-content {
+        height: 320px;
+      }
+      
 	/* Image */
 
 		.image
