@@ -50,3 +50,10 @@ user-contact-button:
   css:
     component:
       css/components/user-contact-button.css: {}
+
+layout-builder:
+  version: 1.x
+  css:
+    theme:
+      css/layout-builder.css: {}
+

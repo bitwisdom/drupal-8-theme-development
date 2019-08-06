@@ -1,0 +1,7 @@
+.bitwisdom-2col-section {
+    display: flex;
+}
+.bitwisdom-col {
+    flex-grow: 1;
+    width: 50%;
+}

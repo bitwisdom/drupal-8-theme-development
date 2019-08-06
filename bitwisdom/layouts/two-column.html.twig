@@ -1,0 +1,26 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a two-column layout.
+ *
+ * Available variables:
+ * - content: The content for this layout.
+ * - attributes: HTML attributes for the layout <div>.
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('bitwisdom/layout-builder') }}
+{% if content %}
+  <div{{ attributes.addClass('bitwisdom-2col-section') }}>
+
+    <div {{ region_attributes.col1.addClass('layout__region', 'bitwisdom-col') }}>
+        {{ content.col1 }}
+      </div>
+
+    <div {{ region_attributes.col2.addClass('layout__region', 'bitwisdom-col') }}>
+        {{ content.col2 }}
+      </div>
+
+  </div>
+{% endif %}

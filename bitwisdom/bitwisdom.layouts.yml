@@ -1,0 +1,12 @@
+bitwisdom_two_column:
+  label: 'Bitwisdom: Two column'
+  category: 'Bitwisdom'
+  template: layouts/two-column
+  default_region: col1
+  regions:
+    col1:
+      label: "Column 1"
+    col2:
+      label: "Column 2"
+  icon_map:
+    - [ first above, second above ]
