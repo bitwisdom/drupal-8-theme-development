@@ -1,14 +1,14 @@
 name: BitWisdom
 description: 'An example Drupal 8 theme.'
 type: theme
-core: 8.x
+core_version_requirement: ^8 || ^9
 base theme: classy
 
 libraries:
   - bitwisdom/global-styling
   - bitwisdom/font-awesome
   - bitwisdom/global-scripts
-  
+
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
@@ -20,15 +20,14 @@ regions:
   content: 'Content'
   sidebar_first: 'Sidebar'
   footer: 'Footer'
-  
+
 libraries-override:
   classy/base:
     css:
       component:
         css/components/tabs.css: false
         css/components/breadcrumb.css: css/breadcrumb-override.css
-        
+
 libraries-extend:
   classy/node:
     - bitwisdom/node
-  
